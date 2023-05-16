@@ -45,5 +45,16 @@ a:hover {
     width: 100%;
 }
 
+.fa {
+    display: none;
+}
 
+@media (max-width: 900px) {
+   nav ul {
+        display: none;
+    }
 
+    .fa {
+        display: block;
+    }
+}
